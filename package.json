@@ -1,0 +1,33 @@
+{
+  "name": "rvgpl",
+  "version": "0.0.1",
+  "description": "Personal CLI of Ravigopal Kesari",
+  "type": "module",
+  "bin": "index.mjs",
+  "files": [
+    "index.mjs",
+    "data.js",
+    "README.md"
+  ],
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": [
+    "CLI",
+    "Personal",
+    "Ravigopal",
+    "Kesari"
+  ],
+  "author": "Ravigopal Kesari",
+  "license": "MIT",
+  "dependencies": {
+    "cli-table3": "^0.6.3",
+    "figlet": "^1.6.0",
+    "inquirer": "^8.2.4",
+    "yoctocolors": "^2.1.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
